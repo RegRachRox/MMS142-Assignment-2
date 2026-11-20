@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isturyaheeee</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <div class="body_div col-10 mx-auto">
+        <nav class="nav_div">
+            <div class = "container-fluid p-2 d-flex align-items-center">
+                <div class = "d-flex align-items-center p-2"> 
+                    <img src="logo-dark.png" class="logo_img mw-50 mh-50">
+                    <a class="nav-link" href="index.html" id="nav_link">isturyaheeee!</a>
+                </div>
+
+                <div class = "d-flex ms-auto align-items-center"> 
+                    <a href="index.html" class="btn nav_button">Home</a>
+                    <a href="about-us.html" class="btn nav_button">About Us</a>
+                    <a href="index.html" class="btn nav_button">T-Shirts</a>
+                    <a href="contact.html" class="btn nav_button">Contact</a>
+                    <a href="order-form.html" class="btn nav_button"><img src="cart-icon.png" class="logo_img mw-50 mh-50"></a>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-6 p-4">
+                <h1 class="body_title">Contact Us</h1>
+                <form id="contact-form" class="contact-form" action="#" method="post">
+                    <p class="body_text">Do you have a problem and questions? Want to have collaboration? Reach out to us! </p>
+                    <div class="row g-3 mb-3">
+                        <div class="col-6">
+                            <p class="body_text">Name</p>
+                            <input type="text" id="full-name" name="full_name" required autocomplete="name" class="form form-control">
+                        </div>
+                        <div class="col-6">
+                            <p class="body_text">Company</p>
+                            <input type="text" id="company" name="company" required autocomplete="company" class="form form-control">
+                        </div>
+                    </div>
+                    <div class="row g-3 mb-3">
+                        <div class="col-6">
+                            <p class="body_text">Email</p>
+                            <input type="text" id="email" name="email" required autocomplete="email" class="form form-control">
+                        </div>
+                        <div class="col-6">
+                            <p class="body_text">Subject</p>
+                            <input type="text" id="subject" name="subject" required autocomplete="subject" class="form form-control">
+                        </div>
+                    </div>
+                    <div>
+                        <p>Message</p>
+                        <textarea class="form form-control" id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <button class="button contact_button" type="submit">SUBMIT</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-6 contact_image">
+                <img src="contact-us-bg.png">
+            </div>
+        </div>
+
+        <footer class="ftr_div mt-auto p-3">
+            <div class="container-fluid d-flex align-items-center gap-3">
+                <img src="logo-light.png" class="logo_img mw-50 mh-50">
+                <p class="body_text mb-0" id="cpright">© 2026</p>
+
+                <div class="d-flex gap-2 ms-auto">
+                    <a href="privacy-policy.html" class="btn ftr_button">Privacy Policy</a>
+                    <a href="terms-of-use.html" class="btn ftr_button">Terms and Conditions</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min .js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script> 
+</body>
+</html>

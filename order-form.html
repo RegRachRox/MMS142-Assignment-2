@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isturyaheeee</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/mailto.js" defer></script>
+
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <div class="body_div col-10 mx-auto">
+        <nav class="nav_div">
+            <div class = "container-fluid p-2 d-flex align-items-center">
+                <div class = "d-flex align-items-center p-2"> 
+                    <img src="logo-dark.png" class="logo_img mw-50 mh-50">
+                    <a class="nav-link" href="index.html" id="nav_link">isturyaheeee!</a>
+                </div>
+
+                <div class = "d-flex ms-auto align-items-center"> 
+                    <a href="index.html" class="btn nav_button">Home</a>
+                    <a href="about-us.html" class="btn nav_button">About Us</a>
+                    <a href="index.html" class="btn nav_button">T-Shirts</a>
+                    <a href="contact.html" class="btn nav_button">Contact</a>
+                    <a href="order-form.html" class="btn nav_button"><img src="cart-icon.png" class="logo_img mw-50 mh-50"></a>
+                </div>
+            </div>
+        </nav>
+        <div class="row flex-grow-1 p-3 g-4">
+            <div class="col-8">
+                <h2 class="body_title mb-4">Shopping Cart</h2>
+                
+                    <div class="table-responsive col-8">
+                        <table class="cart-table">
+                            <thead>
+                                <tr>
+                                    <th>product</th>
+                                    <th>size</th>
+                                    <th>quantity</th>
+                                    <th>total price</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+
+                            <tbody id="cart-items"></tbody>
+                        </table>
+                    </div>
+                
+
+                    <p id="empty-cart" class="body_text text-center p-4" style="display: none;"> Your shopping cart is empty.</p>
+
+                    <div class="d-flex justify-content-end mt-4">
+                        <div class="cart-summary text-end">
+                            <p class="body_text"> Subtotal: PHP <span id="subtotal">0.00</span></p>
+                            <p class="body_text">Shipping fee: FREE</p>
+                            <a href="index.html" class="btn btn_order">CONTINUE SHOPPING</a>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="payment_info col-4">
+                <h2 class="body_title">Payment Info.</h2>
+                <p class="body_text">Payment Method</p>
+
+                <form action="/submit">
+                    <label class="body_text">
+                        <input type="radio" name="payment_method" value="credit"> Credit Card
+                    </label><br>
+                    <label class="body_text">
+                        <input type="radio" name="payment_method" value="cod"> Cash On Delivery
+                    </label><br>
+
+                    <p class="body_text">Name On Card: </p>
+                    <input type="text" id="cardname" name="cardname" required autocomplete="cardname" class="form form-control">
+
+                    <p class="body_text">Card Number: </p>
+                    <input type="text" id="cardnumber" name="cardnumber" required autocomplete="cardnumber" class="form form-control">
+
+                    <p class="body_text">Expiration Date: </p>
+                    <input type="date" id="start-date" name="trip-start" value="2026-11-20" min="2026-01-01" max="2026-12-31" required />
+
+                    <p class="body_text">CVV: </p>
+                    <input type="text" id="cvv" name="cvv" required autocomplete="cvv" class="form form-control">
+
+                    <button type="button" class="btn btn_order" id="checkout">CHECKOUT</button>
+                </form>
+            </div>
+        </div>
+
+
+        <footer class="ftr_div mt-auto p-3">
+            <div class="container-fluid d-flex align-items-center gap-3">
+                <img src="logo-light.png" class="logo_img mw-50 mh-50">
+                <p class="body_text mb-0" id="cpright">© 2026</p>
+
+                <div class="d-flex gap-2 ms-auto">
+                    <a href="privacy-policy.html" class="btn ftr_button">Privacy Policy</a>
+                    <a href="terms-of-use.html" class="btn ftr_button">Terms and Conditions</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min .js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script> 
+    <script src="script-cart.js" defer></script>
+
+</body>
+</html>

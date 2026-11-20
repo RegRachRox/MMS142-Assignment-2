@@ -1,0 +1,235 @@
+.display{
+    text-align: center;
+}
+
+.btn{
+    align-items: right;
+}
+
+.nav_div{
+    background-color: #F5F0E6;
+    color: #3B2F2F;
+    font-family: 'PT Mono', 'Courier New', Courier, monospace;
+}
+
+#nav_link{
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.ftr_div{
+    background-color: #3B2F2F;
+    color: #F5F0E6;
+    font-family: 'PT Mono', 'Courier New', Courier, monospace;
+}
+
+.nav_button{
+    color: #3B2F2F !important;
+    border: none;
+    background-color: transparent;
+}
+
+.ftr_button{
+    color: #F5F0E6 !important;
+    border: none;
+    background-color: transparent;
+}
+
+.logo_img{
+    width: 72px;
+    height: 72px;
+}
+
+.title_div{
+    background-color: #B08D57;
+    font-family: 'PT Mono', 'Courier New', Courier, monospace;
+}
+
+.title{
+    color: #F5F0E6;
+    font-family: 'Yeseva One', 'Vidaloka', 'Playfair Display', 'Abril Fatface';
+}
+
+.body_title{
+    color: #3B2F2F;
+    font-family: 'Yeseva One', 'Vidaloka', 'Playfair Display', 'Abril Fatface';
+}
+
+.product_div{
+    background-color: #3B2F2F;
+    text-align: center;
+}
+
+.product_name{
+    color: #D4AF37;
+    font-family: 'Yeseva One', 'Vidaloka', 'Playfair Display', 'Abril Fatface';
+}
+
+.product_price{
+    color: #F5F0E6;
+    font-family: 'PT Mono', 'Courier New', Courier, monospace;
+}
+
+.btn{
+    color: #F5F0E6;
+    border-color: #F5F0E6;
+    border-width: 2px;
+}
+
+.body_div{
+    background-color: #F5F0E6;
+}
+
+#title{
+    background-color: #D4AF37;
+}
+
+.body_text{
+    font-family: 'PT Mono', 'Courier New', Courier, monospace;
+    color:#3B2F2F;
+}
+
+#cpright{
+    color: #F5F0E6;
+}
+
+.product_price_page{
+    color: #D4AF37;
+    font-family: 'PT Mono', 'Courier New', Courier, monospace;
+}
+
+.btn_size{
+    background-color: #D4AF37;
+    border-color: #D4AF37;
+    color:#3B2F2F;
+}
+
+.btn_order{
+    border: 1px solid #3B2F2F !important;
+    color: #F5F0E6 !important;
+    background-color: #3B2F2F !important;
+    padding: 8px 20px;
+    margin-top:10px
+}
+
+.btn_contact{
+    color: #F5F0E6;
+    background-color: #3B2F2F;
+    align-items: right;  
+}
+
+.form{
+    background-color: #D4AF37;
+    color: #3B2F2F;
+}
+
+.shirt_button{
+    background-color: #3B2F2F;
+    color: #F5F0E6;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #3B2F2F;
+    text-align: center;
+}
+
+.cart-table thead {
+    border-bottom: 1px solid #C6A477;
+}
+
+.cart-table th {
+    font-family: monospace;
+    font-weight: normal;
+    color: #A69A8E;
+    padding: 12px;
+}
+
+.cart-table td {
+    padding: 15px 8px;
+    vertical-align: middle;
+}
+
+.cart-table tbody tr {
+    border-bottom: 1px solid #E5D7C5;
+}
+
+.cart-table tbody tr:last-child {
+    border-bottom: 1px solid #C6A477;
+}
+
+.cart-table .product-name {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+.cart-table button {
+    border: none;
+    background: transparent;
+    color: #3B2F2F;
+    cursor: pointer;
+}
+
+.cart-table .size-select {
+    background-color: #DDBB42;
+    border: 1px solid #3B2F2F;
+    color: #3B2F2F;
+    padding: 3px 8px;
+}
+
+.cart-table .remove-btn {
+    color: #A69A8E;
+    font-size: 22px;
+}
+
+.cart-summary {
+    color: #3B2F2F;
+}
+
+@media (max-width: 768px) {
+
+    .body_div {
+        width: 95%;
+    }
+
+    .cart-table {
+        min-width: 600px;
+    }
+
+    .cart-summary {
+        width: 100%;
+    }
+
+}
+
+.contact_button {
+    margin-top: 5px;
+    border: 1px solid #3B2F2F;
+    padding: 5px 20px;
+    background-color: #3B2F2F;
+    color: #E5D7C5;
+    cursor: pointer;
+}
+
+.about-bg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.contact_image {
+    height: 100%;
+    min-height: 600px;
+    overflow: hidden;
+    padding: 0;
+}
+
+
+.payment_info{
+    background: #B08D57;
+    color: #F5F0E6;
+    padding: 20px;
+}
