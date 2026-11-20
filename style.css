@@ -87,8 +87,8 @@
 }
 
 .learn_more_btn{
-    color: #D4AF37;
-    border-color: #D4AF37;
+    color: #D4AF37 !important;
+    border-color: #D4AF37 !important;
     border-width: 2px;
 }
 
