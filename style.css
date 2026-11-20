@@ -58,8 +58,8 @@
 
 .body_title{
     color: #3B2F2F;
-    font-family: 'Yeseva One', 'Vidaloka', 'Playfair Display', 'Abril Fatface';
-    font-weight: bold;
+    font-family: 'Playfair Display', 'Yeseva One', 'Vidaloka', 'Abril Fatface', serif;
+    font-weight: 700;
 }
 
 .product_div{
