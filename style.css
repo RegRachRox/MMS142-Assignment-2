@@ -236,6 +236,11 @@
     padding: 0;
 }
 
+.order_form{
+    background-color: #F5F0E6;
+    color: #3B2F2F;
+}
+
 
 .payment_info{
     background: #B08D57;
