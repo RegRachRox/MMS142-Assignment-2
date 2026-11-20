@@ -248,6 +248,10 @@
     padding-bottom: 5px;
 }
 
+.contact_img{
+    height: 300px;
+    width: auto;
+}
 
 .payment_info{
     background: #B08D57;
